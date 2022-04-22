@@ -2,7 +2,9 @@
 
 ## Blur image detection with Flutter and TFLite
 
-This application allows you to detect blurry/poor quality pictures on your phone. The application artificial intelligence was trained on Kaggle GPUs with the TFLite framework, and Flutter was used on the Android side.
+* This application allows you to detect blurry/poor quality pictures on your phone, the image selected from the gallery or captured from the camera is given to the TFLite model and the model marks this image as belonging to one of the two classes.
+
+* I trained the artificial intelligence model on Tensorflow MobileNetV2 with the data set I found on Kaggle, and I used Flutter on the Android side.
 
 [**Kaggle Model Link**](https://www.kaggle.com/code/ahmetfurkandemr/blur-detection-with-tflite)
 
